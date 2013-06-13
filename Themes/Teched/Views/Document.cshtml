@@ -1,0 +1,32 @@
+﻿@using Orchard.Mvc.Html;
+@using Orchard.UI.Resources;
+@{
+    RegisterLink(new LinkEntry { Type = "image/x-icon", Rel = "shortcut icon", Href = Url.Content("~/Themes/Teched/Images/favicon.ico") });
+
+    string title = Convert.ToString(Model.Title);
+    string siteName = Convert.ToString(WorkContext.CurrentSite.SiteName);
+
+    if (siteName.Contains("||"))
+    {
+        siteName = siteName.Substring(0, siteName.IndexOf("||")).Trim();
+    }
+
+    Script.Require("jQuery").AtHead();
+    Script.Include("teched.min.js").AtFoot();
+}
+<!DOCTYPE html> 
+<html lang="en"  class="static @Html.ClassForPage()">
+<head> 
+    <meta charset="utf-8" />
+    <title>@Html.Title(title, siteName)</title> 
+    @Display(Model.Head)
+    <script>
+        (function (d) { d.className = "dyn" + d.className.substring(6, d.className.length); })(document.documentElement);
+    </script>
+    <!-- theme design by Patrick Robin (http://www.patrickrobin.co.uk) --> 
+</head> 
+<body>
+@Display(Model.Body)
+@Display(Model.Tail)
+</body>
+</html>

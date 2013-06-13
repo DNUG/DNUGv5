@@ -1,0 +1,115 @@
+﻿@using System.Web.UI.WebControls
+@using Orchard.UI.Resources
+@{    
+    SetMeta("X-UA-Compatible", "IE=edge,chrome=1");
+    SetMeta("viewport", "width=device-width, initial-scale=1, maximum-scale=1");
+    
+    Style.Include("skeleton.min.css");
+    Style.Include("base.min.css");
+    Style.Include("layout.min.css");
+	Style.Include("orchard.min.css");
+    Style.Include("http://fonts.googleapis.com/css?family=Anton");
+    Style.Include("http://fonts.googleapis.com/css?family=Patua+One");
+
+    var contentClass = "three-thirds column";
+    var siteName = Convert.ToString(WorkContext.CurrentSite.SiteName);
+    var siteDescription = "";
+    var homeUrl = Href("~/");
+
+    if (siteName.Contains("||"))
+    {
+        siteDescription = siteName.Substring(siteName.IndexOf("||") + 2).Trim();
+        siteName = siteName.Substring(0, siteName.IndexOf("||")).Trim();
+    }
+    
+    if (Model.Aside != null)
+    {
+        contentClass = "two-thirds column";
+    }
+}
+
+<div class="container">
+	<div id="header" class="row">
+		
+		<div id="branding" class="sixteen columns">
+			<h1><a href="@homeUrl" title="@siteName">@siteName</a></h1>
+			@if (!string.IsNullOrEmpty(siteDescription))
+			{
+			    <h2>@siteDescription</h2>
+			}
+		</div>
+		
+		<div id="navigation" class="sixteen columns">
+			@Display(Model.Navigation)
+		</div>
+	
+	</div>
+	
+	<div id="content" class="row">
+	
+        @if (Model.Featured != null)
+        {
+            <div id="featured" class="sixteen columns">
+                @Display(Model.Featured)			
+            </div>
+        }
+		
+		<div id="main" class="@contentClass">
+			
+			@if (Model.Messages != null)
+			{
+				<div id="messages" class="sixteen columns">
+					@Display(Model.Messages)
+				</div>
+			}
+		
+			@Display(Model.BeforeContent)
+            @Display(Model.Content)
+            @Display(Model.AfterContent)
+		</div>
+		
+		@if (Model.Aside != null)
+		{
+			<div id="aside" class="one-third column">
+				@Display(Model.Aside)
+			</div>
+		}
+	</div>
+	
+	<div id="trailer" class="row">
+		<div id="trailer-one" class="one-third column">
+			@Display(Model.TrailerFirst)
+		</div>
+		<div id="trailer-two" class="one-third column">
+			@Display(Model.TrailerSecond)
+		</div>
+		<div id="trailer-three" class="one-third column">
+			@Display(Model.TrailerThird)
+		</div>
+	</div>
+	
+    <div id="footer" class="row">
+        <div id="footer-one" class="four columns">
+            @Display(Model.FooterFirst)
+        </div>
+        <div id="footer-two" class="four columns">
+            @Display(Model.FooterSecond)
+        </div>
+        <div id="footer-three" class="four columns">
+            @Display(Model.FooterThird)
+        </div>
+        <div id="footer-four" class="four columns">
+            @Display(Model.FooterFourth)
+        </div>
+        <div id="footer-wide" class="sixteen columns">
+            @Display(Model.FooterWide)
+        </div>
+    </div>
+    
+    <div id="copyright" class="row">
+        <p>
+            Powered by Orchard Project, Theme Design by <a href="http://www.patrickrobin.co.uk" title="Patrick Robin">Patrick Robin</a> copyright &copy; 2012
+        </p>
+    </div>
+
+</div>

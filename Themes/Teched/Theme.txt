@@ -1,0 +1,7 @@
+﻿Name: Teched
+Author: Patrick Robin
+Description: a contemporary theme inspired by TechED europe site featuring a responive layout with multiple zones for widget placement.
+Version: 1.0.0
+Tags: Personal, Blog, Contemporary
+Website: http://www.patrickrobin.co.uk
+Zones: Navigation, Featured, Messages, BeforeContent, Content, AfterContent, Aside, TrailerFirst, TrailerSecond, TrailerThird, FooterFirst, FooterSecond, FooterThird, FooterFourth, FooterWide

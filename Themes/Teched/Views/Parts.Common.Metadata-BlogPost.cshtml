@@ -1,0 +1,8 @@
+﻿@{
+
+var date = Model.ContentPart.CreatedUtc.Date;
+var author = Model.ContentPart.Owner.UserName;
+
+}
+
+<span class="author">By @author.ToString()</span><span class="date">posted on @date.ToString("D")</span>

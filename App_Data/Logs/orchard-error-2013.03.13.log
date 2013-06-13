@@ -1,0 +1,255 @@
+2013-03-13 13:13:40,068 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id0_, redirectmo0_.Url as Url0_, redirectmo0_.Alias as Alias0_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 13:13:40,164 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 13:13:40,171 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 13:13:40,172 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 13:13:40,761 [10] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id0_, redirectmo0_.Url as Url0_, redirectmo0_.Alias as Alias0_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 13:13:40,762 [10] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 13:13:40,762 [10] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 13:13:40,762 [10] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 13:14:05,778 [7] NHibernate.Util.ADOExceptionReporter - While preparing SELECT this_.Id as Id121_2_, this_.Number as Number121_2_, this_.Published as Published121_2_, this_.Latest as Latest121_2_, this_.Data as Data121_2_, this_.ContentItemRecord_id as ContentI6_121_2_, contentite1_.Id as Id120_0_, contentite1_.Data as Data120_0_, contentite1_.ContentType_id as ContentT3_120_0_, contenttyp4_.Id as Id122_1_, contenttyp4_.Name as Name122_1_ FROM Orchard_Framework_ContentItemVersionRecord this_ inner join Orchard_Framework_ContentItemRecord contentite1_ on this_.ContentItemRecord_id=contentite1_.Id left outer join Orchard_Framework_ContentTypeRecord contenttyp4_ on contentite1_.ContentType_id=contenttyp4_.Id WHERE contentite1_.Id = @p0 and this_.Published = @p1 ORDER BY GETDATE() OFFSET 0 ROWS FETCH NEXT @p2 ROWS ONLY an error occurred
+2013-03-13 13:14:05,778 [7] NHibernate.Util.ADOExceptionReporter - The connection object can not be enlisted in transaction scope.
+2013-03-13 14:43:24,534 [22] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 14:43:24,536 [22] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:43:24,536 [22] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:43:24,537 [22] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:43:24,584 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 14:43:24,585 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:43:24,585 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:43:24,585 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:44:18,880 [17] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 14:44:18,881 [17] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:44:18,881 [17] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:44:18,881 [17] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:44:52,101 [22] NHibernate.Util.ADOExceptionReporter - While preparing SELECT this_.Id as Id384_3_, this_.Number as Number384_3_, this_.Published as Published384_3_, this_.Latest as Latest384_3_, this_.Data as Data384_3_, this_.ContentItemRecord_id as ContentI6_384_3_, contentite1_.Id as Id383_0_, contentite1_.Data as Data383_0_, contentite1_.ContentType_id as ContentT3_383_0_, sitesettin4_.Id as Id393_1_, sitesettin4_.SiteSalt as SiteSalt393_1_, sitesettin4_.SiteName as SiteName393_1_, sitesettin4_.SuperUser as SuperUser393_1_, sitesettin4_.PageTitleSeparator as PageTitl5_393_1_, sitesettin4_.HomePage as HomePage393_1_, sitesettin4_.SiteCulture as SiteCult7_393_1_, sitesettin4_.ResourceDebugMode as Resource8_393_1_, sitesettin4_.PageSize as PageSize393_1_, sitesettin4_.SiteTimeZone as SiteTim10_393_1_, contenttyp5_.Id as Id385_2_, contenttyp5_.Name as Name385_2_ FROM Orchard_Framework_ContentItemVersionRecord this_ inner join Orchard_Framework_ContentItemRecord contentite1_ on this_.ContentItemRecord_id=contentite1_.Id left outer join Settings_SiteSettingsPartRecord sitesettin4_ on contentite1_.Id=sitesettin4_.Id left outer join Orchard_Framework_ContentTypeRecord contenttyp5_ on contentite1_.ContentType_id=contenttyp5_.Id WHERE contentite1_.Id = @p0 and this_.Published = @p1 ORDER BY GETDATE() OFFSET 0 ROWS FETCH NEXT @p2 ROWS ONLY an error occurred
+2013-03-13 14:44:52,102 [22] NHibernate.Util.ADOExceptionReporter - The connection object can not be enlisted in transaction scope.
+2013-03-13 14:44:53,020 [16] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 14:44:53,021 [16] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:44:53,039 [16] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:44:53,040 [16] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:44:53,613 [20] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 14:44:53,614 [20] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:44:53,615 [20] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:44:53,615 [20] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 14:44:59,817 [11] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 14:44:59,817 [11] 2013-03-13 15:14:01,050 [8] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:01,084 [8] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:01,087 [8] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:01,089 [8] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:01,347 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:01,348 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:01,349 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:01,349 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:04,351 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:04,352 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:04,352 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:04,353 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:04,401 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:04,402 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:04,402 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:04,402 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:07,197 [9] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:07,199 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:07,200 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:07,201 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:07,252 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:07,253 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:07,253 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:07,254 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:08,136 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:08,138 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:08,139 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:08,139 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:08,181 [9] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:08,182 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:08,182 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:08,182 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:14,333 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:14,334 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:14,335 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:14,335 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:14,383 [9] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:14,384 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:14,384 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:14,384 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:15,701 [9] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:15,703 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:15,703 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:15,704 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:15,758 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:15,759 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:15,759 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:15,759 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:16,474 [9] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:16,476 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:16,477 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:16,478 [9] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:16,530 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:16,531 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:16,531 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:16,531 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:46,585 [8] NHibernate.Util.ADOExceptionReporter - While preparing SELECT this_.Id as Id384_3_, this_.Number as Number384_3_, this_.Published as Published384_3_, this_.Latest as Latest384_3_, this_.Data as Data384_3_, this_.ContentItemRecord_id as ContentI6_384_3_, contentite1_.Id as Id383_0_, contentite1_.Data as Data383_0_, contentite1_.ContentType_id as ContentT3_383_0_, sitesettin4_.Id as Id393_1_, sitesettin4_.SiteSalt as SiteSalt393_1_, sitesettin4_.SiteName as SiteName393_1_, sitesettin4_.SuperUser as SuperUser393_1_, sitesettin4_.PageTitleSeparator as PageTitl5_393_1_, sitesettin4_.HomePage as HomePage393_1_, sitesettin4_.SiteCulture as SiteCult7_393_1_, sitesettin4_.ResourceDebugMode as Resource8_393_1_, sitesettin4_.PageSize as PageSize393_1_, sitesettin4_.SiteTimeZone as SiteTim10_393_1_, contenttyp5_.Id as Id385_2_, contenttyp5_.Name as Name385_2_ FROM Orchard_Framework_ContentItemVersionRecord this_ inner join Orchard_Framework_ContentItemRecord contentite1_ on this_.ContentItemRecord_id=contentite1_.Id left outer join Settings_SiteSettingsPartRecord sitesettin4_ on contentite1_.Id=sitesettin4_.Id left outer join Orchard_Framework_ContentTypeRecord contenttyp5_ on contentite1_.ContentType_id=contenttyp5_.Id WHERE contentite1_.Id = @p0 and this_.Published = @p1 ORDER BY GETDATE() OFFSET 0 ROWS FETCH NEXT @p2 ROWS ONLY an error occurred
+2013-03-13 15:14:46,586 [8] NHibernate.Util.ADOExceptionReporter - The connection object can not be enlisted in transaction scope.
+2013-03-13 15:14:46,661 [7] NHibernate.AdoNet.AbstractBatcher - Could not execute query: select redirectmo0_.Id as Id350_, redirectmo0_.Url as Url350_, redirectmo0_.Alias as Alias350_ from LuxitRedirect_RedirectModelRecord redirectmo0_ where redirectmo0_.Alias=@p0
+System.Data.SqlServerCe.SqlCeException (0x80004005): The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.CompileQueryPlan()
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+2013-03-13 15:14:46,662 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL predicates.
+2013-03-13 15:14:46,664 [7] NHibernate.Util.ADOExceptionReporter - The ntext and image data types cannot be used in WHERE, HAVING, GROUP BY, ON, or IN clauses, except when these data types are used with the LIKE or IS NULL pred
